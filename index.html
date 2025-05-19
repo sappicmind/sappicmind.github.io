@@ -11,29 +11,30 @@
       color: #333;
       margin: 0;
       padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
     }
     .container {
-      background: #fff;
+      max-width: 800px;
+      margin: 0 auto;
       padding: 2rem;
+      background: #fff;
       border-radius: 12px;
       box-shadow: 0 0 20px rgba(0,0,0,0.05);
-      max-width: 500px;
-      text-align: center;
     }
     h1 {
       color: #0a58ca;
+      text-align: center;
+    }
+    p {
+      text-align: center;
     }
     ul {
       list-style: none;
       padding: 0;
-      margin-top: 1.5rem;
+      margin-top: 2rem;
     }
     li {
-      margin: 0.5rem 0;
+      margin: 1rem 0;
+      font-size: 1.1rem;
     }
     a {
       text-decoration: none;
@@ -43,6 +44,20 @@
     a:hover {
       text-decoration: underline;
     }
+    .app-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .app-item {
+      width: 48%;
+      margin-bottom: 1rem;
+    }
+    @media (max-width: 600px) {
+      .app-item {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -50,10 +65,31 @@
     <h1>SappicMind</h1>
     <p>Willkommen auf der offiziellen Entwicklerseite von <strong>Sebastian Baré</strong>.</p>
     <ul>
-      <li><a href="https://play.google.com/store/apps/developer?id=Sebastian+Bare" target="_blank">🎮 Alle aktiven Apps anzeigen</a></li>
+      <li><a href="https://play.google.com/store/apps/developer?id=Sebastian+Bare" target="_blank">🎮 Google Play Entwicklerprofil</a></li>
       <li><a href="privacy-settings.html">📄 Datenschutzerklärung</a></li>
       <li><a href="app-ads.txt">📂 app-ads.txt</a></li>
     </ul>
+    <h2>📱 Meine Apps</h2>
+    <div class="app-list">
+      <div class="app-item">
+        <a href="https://play.google.com/store/apps/details?id=com.sappicmind.grandmastermindlite" target="_blank">Mastermind Extreme</a>
+      </div>
+      <div class="app-item">
+        <a href="https://play.google.com/store/apps/details?id=com.sappicmind.grandmastermindpremium" target="_blank">Mastermind Extreme Premium</a>
+      </div>
+      <div class="app-item">
+        <a href="https://play.google.com/store/apps/details?id=com.sappicmind.colorpuzzle" target="_blank">ColorPuzzle</a>
+      </div>
+      <div class="app-item">
+        <a href="https://play.google.com/store/apps/details?id=com.sappicmind.formania.lite" target="_blank">Formania</a>
+      </div>
+      <div class="app-item">
+        <a href="https://play.google.com/store/apps/details?id=com.sappicmind.formania.premium" target="_blank">Formania Premium</a>
+      </div>
+      <div class="app-item">
+        <a href="https://play.google.com/store/apps/details?id=com.sappicmind.riskbattleassistant" target="_blank">Risk Battle Assistant</a>
+      </div>
+    </div>
   </div>
 </body>
 </html>
