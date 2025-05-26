@@ -1,39 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <!-- Startseite (automatische Weiterleitung) -->
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   <url>
     <loc>https://sappicmind.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sappicmind.github.io/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sappicmind.github.io/index-de.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sappicmind.github.io/index.html"/>
   </url>
-
-  <!-- Englischsprachige Seiten -->
+  
+  <!-- Index -->
   <url>
     <loc>https://sappicmind.github.io/index.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://sappicmind.github.io/formania.html</loc>
-  </url>
-  <url>
-    <loc>https://sappicmind.github.io/colorpuzzle.html</loc>
-  </url>
-  <url>
-    <loc>https://sappicmind.github.io/mastermind.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sappicmind.github.io/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sappicmind.github.io/index-de.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sappicmind.github.io/index.html"/>
   </url>
 
-  <!-- Deutsche Versionen -->
   <url>
     <loc>https://sappicmind.github.io/index-de.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sappicmind.github.io/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sappicmind.github.io/index-de.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sappicmind.github.io/index.html"/>
   </url>
+
+  <!-- Formania -->
+  <url>
+    <loc>https://sappicmind.github.io/formania.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sappicmind.github.io/formania.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sappicmind.github.io/formania-de.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sappicmind.github.io/formania.html"/>
+  </url>
+
   <url>
     <loc>https://sappicmind.github.io/formania-de.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sappicmind.github.io/formania.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sappicmind.github.io/formania-de.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sappicmind.github.io/formania.html"/>
   </url>
+
+  <!-- Mastermind Extreme -->
   <url>
-    <loc>https://sappicmind.github.io/colorpuzzle-de.html</loc>
+    <loc>https://sappicmind.github.io/mastermind.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sappicmind.github.io/mastermind.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sappicmind.github.io/mastermind-de.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sappicmind.github.io/mastermind.html"/>
   </url>
+
   <url>
     <loc>https://sappicmind.github.io/mastermind-de.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sappicmind.github.io/mastermind.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sappicmind.github.io/mastermind-de.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sappicmind.github.io/mastermind.html"/>
+  </url>
+
+  <!-- ColorPuzzle -->
+  <url>
+    <loc>https://sappicmind.github.io/colorpuzzle.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sappicmind.github.io/colorpuzzle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sappicmind.github.io/colorpuzzle-de.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sappicmind.github.io/colorpuzzle.html"/>
+  </url>
+
+  <url>
+    <loc>https://sappicmind.github.io/colorpuzzle-de.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sappicmind.github.io/colorpuzzle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sappicmind.github.io/colorpuzzle-de.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sappicmind.github.io/colorpuzzle.html"/>
   </url>
 
 </urlset>
