@@ -10,7 +10,11 @@
   <link rel="canonical" href="https://sappicmind.github.io/formania.html" />
   <script>
   const lang = navigator.language.toLowerCase();
-  if (lang.startsWith('de') && !window.location.href.includes('formania-de.html')) {
+
+  // Prüfen, ob User selbst die Sprache gewählt hat
+  const manuallySelected = localStorage.getItem('manualLangSelect');
+
+  if (!manuallySelected && lang.startsWith('de') && !window.location.href.includes('formania-de.html')) {
     window.location.href = 'formania-de.html';
   }
   </script>
@@ -46,11 +50,12 @@
   </style>
 </head>
 <body>
-  <div style="text-align: right; margin-bottom: 1rem;">
-  <a href="formania-de.html" hreflang="de" lang="de" style="text-decoration: none; font-size: 0.9rem;">
-    🇩🇪 Deutsch
-  </a>
-  </div>
+  <a href="formania-de.html" id="switch-to-de">🇩🇪 DE</a>
+  <script>
+  document.getElementById('switch-to-de').addEventListener('click', () => {
+    localStorage.setItem('manualLangSelect', 'true');
+  });
+  </script>
   
   <h1>Formania – A Strategic Puzzle Game for Android</h1>
 
