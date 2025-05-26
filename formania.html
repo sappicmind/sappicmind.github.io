@@ -10,11 +10,7 @@
   <link rel="canonical" href="https://sappicmind.github.io/formania.html" />
   <script>
   const lang = navigator.language.toLowerCase();
-
-  // Prüfen, ob User selbst die Sprache gewählt hat
-  const manuallySelected = localStorage.getItem('manualLangSelect');
-
-  if (!manuallySelected && lang.startsWith('de') && !window.location.href.includes('formania-de.html')) {
+  if (lang.startsWith('de') && !window.location.href.includes('formania-de.html')) {
     window.location.href = 'formania-de.html';
   }
   </script>
