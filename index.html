@@ -69,20 +69,40 @@
     a:hover {
       text-decoration: underline;
     }
-    .app-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+  .app-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .app-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+  }
+  .app-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 16px;
+    margin-bottom: 0.5rem;
+  }
+  .app-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  @media (max-width: 600px) {
+    .app-card {
+      width: 100%;
     }
-    .app-item {
-      width: 48%;
-      margin-bottom: 1rem;
-    }
-    @media (max-width: 600px) {
-      .app-item {
-        width: 100%;
-      }
-    }
+  }
+  .contact {
+    margin-top: 3rem;
+    text-align: center;
+  }
   </style>
 </head>
 <body>
@@ -94,25 +114,28 @@
       <li><a href="privacy-settings.html">📄 Privacy Policy</a></li>
     </ul>
     <h2>📱 My Apps</h2>
-    <div class="app-list">
-      <div class="app-item">
-        <a href="mastermind.html">Mastermind Extreme</a>
-      </div>
-      <div class="app-item">
-        <a href="colorpuzzle.html">ColorPuzzle</a>
-      </div>
-      <div class="app-item">
-        <a href="formania.html">Formania</a>
-      </div>
-      <div class="app-item">
-        <a href="https://play.google.com/store/apps/details?id=com.sappicmind.riskbattleassistant" target="_blank">Risk Battle Assistant</a>
-      </div>
-    </div>
-    <div class="contact">
-      <p>📧 Contact for questions or feedback:  
-        <a href="mailto:sappicmind@gmail.com">sappicmind@gmail.com</a>
-      </p>
-    </div>
+<div class="app-list">
+  <div class="app-card">
+    <img src="assets/icon-mastermind.png" alt="Mastermind Icon">
+    <h3>Mastermind Extreme</h3>
+    <a href="mastermind.html">Learn more</a>
+  </div>
+  <div class="app-card">
+    <img src="assets/icon-colorpuzzle.png" alt="ColorPuzzle Icon">
+    <h3>ColorPuzzle</h3>
+    <a href="colorpuzzle.html">Learn more</a>
+  </div>
+  <div class="app-card">
+    <img src="assets/icon-formania.png" alt="Formania Icon">
+    <h3>Formania</h3>
+    <a href="formania.html">Learn more</a>
+  </div>
+  <div class="app-card">
+    <img src="assets/icon-riskassistant.png" alt="Risk Assistant Icon">
+    <h3>Risk Battle Assistant</h3>
+    <a href="https://play.google.com/store/apps/details?id=com.sappicmind.riskbattleassistant" target="_blank">Google Play</a>
+  </div>
+</div>
   </div>
 </body>
 </html>
