@@ -51,6 +51,11 @@
 
   <div class="language-switcher">
     <a href="formania.html" hreflang="en" lang="en">🇬🇧 English</a>
+    <script>
+  document.getElementById('switch-to-en').addEventListener('click', () => {
+    localStorage.setItem('manualLangSelect', 'true');
+  });
+  </script>
   </div>
 
   <h1>Formania – Ein strategisches Puzzle-Spiel für Android</h1>
