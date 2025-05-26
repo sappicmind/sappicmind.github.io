@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Startseite (automatische Weiterleitung) -->
+  <url>
+    <loc>https://sappicmind.github.io/</loc>
+  </url>
+
+  <!-- Englischsprachige Seiten -->
+  <url>
+    <loc>https://sappicmind.github.io/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sappicmind.github.io/formania.html</loc>
+  </url>
+  <url>
+    <loc>https://sappicmind.github.io/colorpuzzle.html</loc>
+  </url>
+  <url>
+    <loc>https://sappicmind.github.io/mastermind.html</loc>
+  </url>
+
+  <!-- Deutsche Versionen -->
+  <url>
+    <loc>https://sappicmind.github.io/index-de.html</loc>
+  </url>
+  <url>
+    <loc>https://sappicmind.github.io/formania-de.html</loc>
+  </url>
+  <url>
+    <loc>https://sappicmind.github.io/colorpuzzle-de.html</loc>
+  </url>
+  <url>
+    <loc>https://sappicmind.github.io/mastermind-de.html</loc>
+  </url>
+
+</urlset>
