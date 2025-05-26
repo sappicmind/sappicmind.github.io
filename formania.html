@@ -32,31 +32,63 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 2rem;
+      background: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
       max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
     }
     h1, h2 {
-      color: #333;
+      color: #0a58ca;
+      text-align: center;
     }
-    a.button {
+    p {
+      line-height: 1.6;
+    }
+    .store-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .store-buttons a {
       display: inline-block;
-      background: #4285f4;
-      color: white;
-      padding: 10px 20px;
+      background: #0a58ca;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
       text-decoration: none;
-      border-radius: 5px;
-      margin-top: 10px;
+      font-weight: bold;
     }
-    a.button.premium {
-      background: #34a853;
-      margin-left: 10px;
+    .store-buttons a:hover {
+      background: #084298;
     }
-    img.screenshot {
+    .screenshot {
+      display: block;
+      margin: 2rem auto;
       max-width: 100%;
-      height: auto;
-      border: 1px solid #ccc;
-      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    ul {
+      margin-top: 1rem;
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
     }
   </style>
 </head>
@@ -86,14 +118,14 @@
   <a class="button" href="https://play.google.com/store/apps/details?id=com.sappicmind.formania.lite&hl=en" target="_blank">Download Free</a>
   <a class="button premium" href="https://play.google.com/store/apps/details?id=com.sappicmind.formania.premium&hl=en" target="_blank">Buy Premium</a>
 
-  <img class="screenshot" src="assets/formania.png" alt="Formania promotional graphic" />
-
   <h2>Who Is Formania For?</h2>
   <p>If you enjoy games like <strong>Qwirkle</strong>, <strong>Mastermind</strong>, <strong>Azul</strong>, or other abstract tile games, you'll love Formania’s quick turns, smart tactics, and satisfying scoring mechanics.</p>
 
-  <h2>Follow Development</h2>
-  <p>Formania is developed by <strong>SappicMind</strong>. Stay tuned for feature updates, improvements, and community-driven additions!</p>
+  <h2>📸 Screenshots</h2>
+  <img class="screenshot" src="assets/formania.png" alt="Formania promotional graphic" />
 
-  <p>Back to <a href="https://sappicmind.github.io">sappicmind.github.io</a></p>
+    <footer>
+      <p>Made with ❤️ by <a href="https://sappicmind.github.io" target="_blank">SappicMind</a></p>
+    </footer>
 </body>
 </html>
